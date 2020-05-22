@@ -1,10 +1,10 @@
 #include <stdio.h>
 
+const int ANIOS_PORHORA = 7;
+    
 int main(){
 
-    const int ANIOS_PORHORA = 7;
     int horas_planeta = 1;
-
 
     printf("Escribir la cantidad de horas que paso en el Planeta:\n");
     scanf("%i", &horas_planeta);
